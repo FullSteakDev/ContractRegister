@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="addcontract" id="form" method="post" class="addcontracts">
+        <h3>Add Contracts</h3>
+        <input
+          type="text"
+          name="contractid"
+          id="contractId"
+          placeholder="Enter Contract ID"
+        />
+        <input
+          type="date"
+          name="cdate"
+          id="cDate"
+          placeholder="Enter Contract Date"
+        />
+        <input
+          type="text"
+          name="company"
+          id="Company"
+          placeholder="Enter Company Name"
+        />
+        <input
+          type="text"
+          name="description"
+          placeholder="Enter the description"
+        />
+        <input
+          type="number"
+          name="signee_id"
+          id="signeeID"
+          placeholder="Enter Signee ID"
+        />
+        <input type="text" name="signee_name" placeholder="Enter Signee Name" />
+        <input class="AddBooks" type="submit" value=" Add This Contract " />
+      </form>
+      <div class="back">
+        <a href="Sample.html"><i class="fa-solid fa-hand-point-left"></i></a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

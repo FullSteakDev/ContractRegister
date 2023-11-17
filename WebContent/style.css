@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.2s linear;
+}
+
+.form-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form-container form {
+  /* height: 450px; */
+  height: auto;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transform-style: preserve-3d;
+}
+.form-container .addcontracts {
+  height: 600px;
+}
+.form-container .removecontracts {
+  height: 280px;
+}
+.form-container .addcontracts input[type="submit"] {
+  margin-top: 15px;
+}
+.form-container form h3 {
+  font-size: 30px;
+  padding: 30px 0;
+  color: #ccc;
+  letter-spacing: 3px;
+}
+.form-container form i {
+  padding: 0 5px;
+  font-size: 20px;
+  color: #bbb;
+}
+.form-container form input {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 82%;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+  font-size: 17px;
+  padding: 0 10px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+.form-container form input[type="submit"] {
+  width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(54, 71, 111), rgb(3, 104, 235));
+  margin-top: 30px;
+  border-radius: 50px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.back {
+  margin: 40px;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 40px;
+  transition: 500ms linear;
+}
+.back i {
+  color: #00376f;
+}
+.back:hover {
+  background-color: #0078f2;
+  opacity: 0.5s;
+}
+
+.form-container form input[id="lift"] {
+  margin-top: 15px;
+}
+.form-container form input[type="submit"]:hover {
+  letter-spacing: 3px;
+}
+.form-container form button {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 30%;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 17px;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.form-container form button:hover {
+  letter-spacing: 3px;
+}
+.capbox {
+  background: #8e8e8e;
+  background: linear-gradient(to right, #a7b6cc7b, #747a8f7b);
+  border: #4b505c 0px solid;
+  border-width: 2px 2px 2px 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 8px 5px 8px;
+  border-radius: 4px 4px 4px 4px;
+  margin-top: 15px;
+}
+
+.capbox-inner {
+  font: bold 12px arial, sans-serif;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.3);
+  /* SEMI TRANSPARENT BACKGROUND */
+  margin: 0px auto 0px auto;
+  padding: 3px 8px 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#CaptchaDiv {
+  color: #000000;
+  font: normal 25px Impact, Charcoal, arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffff;
+  user-select: none;
+  display: inline-block;
+  padding: 3px 14px 3px 8px;
+  margin-right: 4px;
+  border-radius: 4px;
+}
+
+#CaptchaInput {
+  border: black 2px solid;
+  margin: 3px 0px 1px 0px;
+  width: 105px;
+}
+.loginpage {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.loginpage .panel {
+  height: 450px;
+  width: 350px;
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  transform-style: preserve-3d;
+}
+.loginpage .panel h3 {
+  font-size: 30px;
+  padding: 30px 0;
+  color: #ccc;
+  letter-spacing: 3px;
+}
+.loginpage .panel button {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 82%;
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+  font-size: 17px;
+  padding: 0 10px;
+  /* margin: 15px 0; */
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.loginpage .panel button:hover {
+  letter-spacing: 3px;
+}
+
+:root {
+  --main-bg-color: #00376f;
+  --main-text-color: #00376f;
+  --second-text-color: #006ddb;
+  --second-bg-color: #0058b3;
+}
+
+.primary-text {
+  color: var(--main-text-color);
+}
+
+.second-text {
+  color: var(--second-text-color);
+}
+
+.primary-bg {
+  background-color: var(--main-bg-color);
+}
+
+.secondary-bg {
+  background-color: var(--second-bg-color);
+}
+
+.rounded-full {
+  border-radius: 100%;
+}
+
+#page-content-wrapper h2,
+h3 {
+  color: #fff;
+}
+
+.bg-white h3 {
+  color: #00376f;
+}
+
+#menu-toggle {
+  color: #fff;
+}
+
+#wrapper {
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to right,
+    #00376f,
+    #004e9e,
+    #0058b3,
+    #0065cc,
+    #0078f2
+  );
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  padding: 2.5%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
