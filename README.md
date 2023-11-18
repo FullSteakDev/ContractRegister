@@ -13,3 +13,9 @@ After the admin login we are able to create a signee or contract or to reamove o
 ![Képernyőfotó 2023-11-18 - 9 36 31](https://github.com/FullSteakDev/ContractRegister/assets/78823085/b7e9d732-26cd-4975-9bc3-355f703248ff)
 
 
+![Képernyőfotó 2023-11-18 - 9 36 04](https://github.com/FullSteakDev/ContractRegister/assets/78823085/2a4e3a19-0a83-435c-8448-0e592e7d24eb)
+
+
+There is an opportunity to create a user account, and after that log in with the credentials, but from that point the user can only list the contracts because she/he does not have the rights to modify the datas.
+
+![Képernyőfotó 2023-11-18 - 9 36 52](https://github.com/FullSteakDev/ContractRegister/assets/78823085/9e6f7169-bd77-4fda-a08e-bfd1aa056406)
